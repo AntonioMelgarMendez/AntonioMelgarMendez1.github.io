@@ -1,0 +1,170 @@
+#inicio{
+
+    background-image: url(../imagenes-de-equipos/background.jpg);
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-color: white;
+    color:black;
+   
+
+}
+i.hover{
+
+    color:white
+}
+li{
+    float: right;
+    margin: 5px
+}
+
+#redessociales{
+    margin-top: 20px;
+}
+.titulo-noticia{
+    color:black
+
+}
+#social-media{
+
+margin-top: 20px;
+margin: 4px;
+}
+
+.parrafo{
+color: black;
+
+    
+
+}
+
+a:any-link{
+    color: black;
+}
+
+#zapato{
+    
+   
+    
+    min-height: 20px;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    border-collapse: separate;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.titulos-seccion{
+    
+    color:black;
+    margin: 20px;
+    display: flex;
+    border-collapse: separate;
+    border-spacing: 20px 5px;
+    gap: 10px;
+    
+
+}
+
+.qatar-titulo{
+    background-color: #9d1848;
+    color:white;
+    
+}
+
+.ola{
+    background-color: #9d1848;
+    color:white;
+    font-weight:bold;
+    font-size: 20px;
+    min-height: 70px;
+    min-width: 1245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  
+}
+.video{
+    border-top: 3px solid #d8d6d8;
+}
+
+#footer{
+    color:black;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    background: #fff;
+    color: #111;
+    font-family: sans-serif,serif;
+    background-image: url(../imagenes-de-equipos/background1.jpg);
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#sobremititulo{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#sobremibutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: None;
+    height:50px;
+    background-color: white;
+    border-color: #ffffff;
+    border: 1px solid black;
+   
+}
+
+section > * {
+    background: #fffbfb;
+}
+
+.contactar{
+    background-image: url(../imagenes-de-equipos/background1.jpg);
+   
+    
+}
+
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.itemform label{
+    font-weight: 700;
+}
+.itemform input,.itemform textarea{
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+input[type="submit"]{
+    background-color: #222;
+    border: 1px solid #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
+
+
+
+#titulofooter{
+    position: absolute;
+    right: 80%;
+    padding: 100px
+
+}
+
+
